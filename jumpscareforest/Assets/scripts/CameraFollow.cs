@@ -23,7 +23,7 @@ public class CameraFollow : MonoBehaviour
 
     }
 
-    void FixedUpdate()
+    void LateUpdate()
     {
         //define the distance the file object is from the center of the camera
         Vector2 follow = Target.transform.position;
