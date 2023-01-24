@@ -507,6 +507,7 @@ GameObject:
   - component: {fileID: 144120765}
   - component: {fileID: 144120764}
   - component: {fileID: 144120763}
+  - component: {fileID: 144120766}
   m_Layer: 3
   m_Name: deathpit
   m_TagString: Untagged
@@ -605,6 +606,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 144120761}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &144120766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144120761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067c1fdeead30f24cabecf8c9d43d504, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerHealth: {fileID: 267772607}
+  damage: 3
 --- !u!1 &146301517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1067,6 +1082,7 @@ GameObject:
   - component: {fileID: 196897845}
   - component: {fileID: 196897844}
   - component: {fileID: 196897843}
+  - component: {fileID: 196897846}
   m_Layer: 3
   m_Name: deathpit (4)
   m_TagString: Untagged
@@ -1165,6 +1181,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 196897841}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &196897846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196897841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067c1fdeead30f24cabecf8c9d43d504, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerHealth: {fileID: 267772607}
+  damage: 3
 --- !u!4 &214992110 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8483278744192678862, guid: 318f2a902ab839c4ba2c5ce14d6d18e9, type: 3}
@@ -4065,6 +4095,7 @@ GameObject:
   - component: {fileID: 685282300}
   - component: {fileID: 685282299}
   - component: {fileID: 685282298}
+  - component: {fileID: 685282301}
   m_Layer: 3
   m_Name: deathpit (1)
   m_TagString: Untagged
@@ -4163,6 +4194,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 685282296}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &685282301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685282296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067c1fdeead30f24cabecf8c9d43d504, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerHealth: {fileID: 267772607}
+  damage: 3
 --- !u!1 &698126193
 GameObject:
   m_ObjectHideFlags: 0
@@ -6620,6 +6665,7 @@ GameObject:
   - component: {fileID: 1454533867}
   - component: {fileID: 1454533866}
   - component: {fileID: 1454533865}
+  - component: {fileID: 1454533868}
   m_Layer: 3
   m_Name: deathpit (3)
   m_TagString: Untagged
@@ -6718,6 +6764,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1454533863}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1454533868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454533863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067c1fdeead30f24cabecf8c9d43d504, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerHealth: {fileID: 267772607}
+  damage: 3
 --- !u!1 &1464102970
 GameObject:
   m_ObjectHideFlags: 0
@@ -8812,6 +8872,7 @@ GameObject:
   - component: {fileID: 2077578943}
   - component: {fileID: 2077578942}
   - component: {fileID: 2077578941}
+  - component: {fileID: 2077578944}
   m_Layer: 3
   m_Name: deathpit (2)
   m_TagString: Untagged
@@ -8910,6 +8971,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2077578939}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2077578944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077578939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067c1fdeead30f24cabecf8c9d43d504, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerHealth: {fileID: 267772607}
+  damage: 3
 --- !u!1 &2097023619
 GameObject:
   m_ObjectHideFlags: 0
