@@ -6,7 +6,9 @@ using UnityEngine;
 public class playerHealth : MonoBehaviour
 {
     public int health; //Keeps track of current player's health
-    public int maxHealth = 10; //How much health you have when you are at full health
+    //How much health you have when you are at full health
+    public int maxHealth = 10;
+    public playerMovement playerMovement;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +21,7 @@ public class playerHealth : MonoBehaviour
         health -= amount; //subtracts amount of damage from health
         if(health <= 0)   //If the damage takes the player down to zero(or below) then the player will be destroyed
         {
-            Destroy(gameObject);
+            playerMovement.enabled = false;
         }   
     }
 }
