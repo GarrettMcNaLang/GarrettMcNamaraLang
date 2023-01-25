@@ -1,13 +1,15 @@
-
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class playerHealth : MonoBehaviour
 {
+    public static event Action OnPlayerDeath;
     public int health; //Keeps track of current player's health
     //How much health you have when you are at full health
     public int maxHealth = 10;
+    public SpriteRenderer playerSP;
     public playerMovement playerMovement;
     // Start is called before the first frame update
     void Start()
@@ -21,7 +23,10 @@ public class playerHealth : MonoBehaviour
         health -= amount; //subtracts amount of damage from health
         if(health <= 0)   //If the damage takes the player down to zero(or below) then the player will be destroyed
         {
+            playerSP.enabled = false;
             playerMovement.enabled = false;
+            //results in an event
+            OnPlayerDeath?.Invoke();
         }   
     }
 }
